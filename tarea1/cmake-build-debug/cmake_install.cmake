@@ -1,4 +1,4 @@
-# Install script for directory: D:/documentos/C++ projects/tarea1
+# Install script for directory: D:/documentos/C++ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/documentos/C++ projects/tarea1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/documentos/C++ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
