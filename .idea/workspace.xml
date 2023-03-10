@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6db78add-0562-428e-be5b-e6e7c2d87770" name="Changes" comment="">
+    <list default="true" id="6db78add-0562-428e-be5b-e6e7c2d87770" name="Changes" comment="Solución a problemas presentes en la parte de node y list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects.a" afterDir="false" />
@@ -82,11 +82,23 @@
       <workItem from="1678224269011" duration="3807000" />
       <workItem from="1678326959590" duration="705000" />
       <workItem from="1678411800724" duration="2538000" />
-      <workItem from="1678456294339" duration="2018000" />
+      <workItem from="1678456294339" duration="5873000" />
     </task>
+    <task id="LOCAL-00001" summary="Solución a problemas presentes en la parte de node y list">
+      <created>1678471206763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678471206763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Solución a problemas presentes en la parte de node y list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solución a problemas presentes en la parte de node y list" />
   </component>
 </project>
