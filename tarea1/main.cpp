@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 class Nodo{
 public:
     int info;
@@ -20,26 +22,29 @@ void crearNuevoNodo(nodoPtr& cabeza, int info)
 
 int main() {
 
+    nodoPtr cabeza;
+    cabeza = new Nodo;
+    cabeza->info = NULL;
+    cabeza->sig = NULL;
+    int nuevoDato;
 
     while (true) {
-        nodoPtr cabeza;
-        cabeza = new Nodo;
-        cabeza->info = 0;
-        cabeza->sig = NULL;
 
-        std::cout << "ingrese los datos del nuevo nodo";
-        int nuevoDato;
-        std::cin >> nuevoDato;
+
+        cout << "ingrese los datos del nuevo nodo";
+        cin >> nuevoDato;
         crearNuevoNodo(cabeza, nuevoDato);
         nodoPtr temp;
         temp = cabeza;
+//        delete cabeza;
 
         while (temp != NULL) {
-            std::cout << temp->info ;
-            std::cout << "-" ;
+            cout << temp->info ;
+            cout << "-" ;
             temp = temp->sig;
         }
-        std::cout << "\n";
+        cout << "\n";
+
 
     }
 }
