@@ -20,11 +20,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6db78add-0562-428e-be5b-e6e7c2d87770" name="Changes" comment="Solución a problemas presentes en la parte de node y list">
+    <list default="true" id="6db78add-0562-428e-be5b-e6e7c2d87770" name="Changes" comment="Solucion a problemas menores">
+      <change afterPath="$PROJECT_DIR$/tarea1/Prueba.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6ed67a19f1a0d2568d18.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-e6843568d4fc586143b7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-07T21-26-47-0669.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/.cmake/api/v1/reply/target-tarea1-Debug-64a298aea722f1694b94.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/compiler_depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tarea1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/main.cpp" afterDir="false" />
     </list>
@@ -64,7 +84,18 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\documentos\C++ projects\Tarea-1-Algoritmos-y-estructuras-de-datos-2\tarea1" />
+      <recent name="D:\documentos\C++ projects\Tarea-1-Algoritmos-y-estructuras-de-datos-2\tarea1\cmake-build-debug" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="tarea1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tarea1" TARGET_NAME="tarea1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tarea1" RUN_TARGET_NAME="tarea1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -82,7 +113,7 @@
       <workItem from="1678224269011" duration="3807000" />
       <workItem from="1678326959590" duration="705000" />
       <workItem from="1678411800724" duration="2538000" />
-      <workItem from="1678456294339" duration="5873000" />
+      <workItem from="1678456294339" duration="12152000" />
     </task>
     <task id="LOCAL-00001" summary="Solución a problemas presentes en la parte de node y list">
       <created>1678471206763</created>
@@ -91,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678471206763</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solucion a problemas menores">
+      <created>1678475460398</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678475460398</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +137,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Solución a problemas presentes en la parte de node y list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solución a problemas presentes en la parte de node y list" />
+    <MESSAGE value="Solucion a problemas menores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solucion a problemas menores" />
   </component>
 </project>

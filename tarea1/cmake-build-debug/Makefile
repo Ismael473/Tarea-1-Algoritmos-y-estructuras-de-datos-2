@@ -128,6 +128,30 @@ tarea1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/build
 .PHONY : tarea1/fast
 
+Prueba.obj: Prueba.cpp.obj
+.PHONY : Prueba.obj
+
+# target to build an object file
+Prueba.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Prueba.cpp.obj
+.PHONY : Prueba.cpp.obj
+
+Prueba.i: Prueba.cpp.i
+.PHONY : Prueba.i
+
+# target to preprocess a source file
+Prueba.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Prueba.cpp.i
+.PHONY : Prueba.cpp.i
+
+Prueba.s: Prueba.cpp.s
+.PHONY : Prueba.s
+
+# target to generate assembly for a file
+Prueba.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Prueba.cpp.s
+.PHONY : Prueba.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tarea1
+	@echo ... Prueba.obj
+	@echo ... Prueba.i
+	@echo ... Prueba.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

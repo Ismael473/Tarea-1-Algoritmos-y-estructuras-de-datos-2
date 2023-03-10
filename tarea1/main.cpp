@@ -1,4 +1,6 @@
 #include <iostream>
+#include "Collector.cpp"
+#include "Prueba.cpp"
 
 using namespace std;
 
@@ -18,6 +20,7 @@ void eliminarNodo(nodoPtr& cabeza){
     }else {
         ptrTemp = cabeza;
         cabeza = cabeza->sig;
+        //delete ptrTemp;
     }
 }
 

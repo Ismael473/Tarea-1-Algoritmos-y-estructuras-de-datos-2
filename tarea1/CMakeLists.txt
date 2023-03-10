@@ -3,4 +3,4 @@ project(tarea1)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(tarea1 main.cpp)
+add_executable(tarea1 main.cpp Collector.cpp Prueba.cpp Prueba.h)
