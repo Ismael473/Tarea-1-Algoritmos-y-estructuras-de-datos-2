@@ -1,6 +1,6 @@
 #include <iostream>
-//#include "Collector.cpp"
-#include "Prueba.cpp"
+#include "Collector.cpp"
+
 
 using namespace std;
 
@@ -10,8 +10,8 @@ public:
     Nodo *sig;
 
 };
-
 typedef Nodo* nodoPtr;
+
 
 void eliminarNodo(nodoPtr& cabeza){
     nodoPtr ptrTemp;
@@ -27,13 +27,44 @@ void eliminarNodo(nodoPtr& cabeza){
 void crearNuevoNodo(nodoPtr& cabeza, int info)
 {
 
-        nodoPtr ptrTemp; //puntero de dirección de nodo
-        ptrTemp = new Nodo; //crea el nuevo nodo
-        ptrTemp->info = info; // dato ingresado
-        ptrTemp->sig = cabeza; //
-        cabeza = ptrTemp;
+    nodoPtr ptrTemp; //puntero de dirección de nodo
+    ptrTemp = new Nodo; //crea el nuevo nodo
+    ptrTemp->info = info; // dato ingresado
+    ptrTemp->sig = cabeza; //
+    cabeza = ptrTemp;
+    //delete ptrTemp;
+}
+
+
+
+
+nodoPtr head;
+void nuevo(nodoPtr& cabeza, int info){
+        cabeza = reinterpret_cast<nodoPtr>(head->info);
+        cout << "hola"<<endl;
+        crearNuevoNodo(cabeza,info);
+        //Nodo* cabeza = new Nodo;
+        //cabeza->info = info;
+        //cabeza->sig = NULL;
+        /**
+        cabeza = reinterpret_cast<nodoPtr>(head->info);
+        crearNuevoNodo(cabeza, info);
+        cabeza->info = info;
+        cabeza->sig = head->sig;
+        */
+        head = head->sig;
+
 
 }
+
+void quitar(nodoPtr& cabeza){
+    nodoPtr temp;
+    temp = cabeza;
+    head = temp;
+    temp->sig = head;
+}
+
+
 
 int main() {
 
@@ -43,36 +74,53 @@ int main() {
     cabeza->sig = NULL;
     int nuevoDato;
     string operacion;
-    eliminarNodo(cabeza);
+    //quitar(cabeza);
     while (true) {
 
         cout<< "ingrese que desea hacer + para agregar, - para eliminar";
         cin >> operacion;
-        if (operacion == "+") {
+        if (operacion == "+") {//Crea dato nuevo
             cout << "ingrese los datos del nuevo nodo";
             cin >> nuevoDato;
 
-            crearNuevoNodo(cabeza, nuevoDato);
+            //crearNuevoNodo(cabeza, nuevoDato);
+            nuevo(cabeza, nuevoDato);
             nodoPtr temp;
+            nodoPtr tmpCol;
             temp = cabeza;
+            tmpCol = head;
 
 
-            while (temp != NULL) {
+            while (temp != NULL) {//imprime lista nodo
                 cout << temp->info;
                 cout << "-";
                 temp = temp->sig;
             }
+            cout <<"-------------------------------------------"<<endl;
+            /**
+            while (tmpCol != NULL) {//imprime lista collector
+                cout << tmpCol->info;
+                cout << "-";
+                tmpCol = tmpCol->sig;
+            }
             cout << "\n";
+             */
         }
-        if (operacion == "-"){
+        if (operacion == "-"){//elimina primer dato viejo
 
-            eliminarNodo(cabeza);
-            nodoPtr temp;
+            quitar(cabeza);
+            nodoPtr temp, tmpCol;
             temp = cabeza;
-            while (temp != NULL) {
+            while (temp != NULL) {//imprime lista nodo
                 cout << temp->info;
                 cout << "-";
                 temp = temp->sig;
+            }
+            cout << "-------------------------------------------"<<endl;
+            while (tmpCol != NULL) {//imprime lista collector
+                cout << tmpCol->info;
+                cout << "-";
+                tmpCol = tmpCol->sig;
             }
             cout << "\n";
         }

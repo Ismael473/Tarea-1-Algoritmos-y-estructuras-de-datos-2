@@ -152,30 +152,6 @@ Collector.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Collector.cpp.s
 .PHONY : Collector.cpp.s
 
-Prueba.obj: Prueba.cpp.obj
-.PHONY : Prueba.obj
-
-# target to build an object file
-Prueba.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Prueba.cpp.obj
-.PHONY : Prueba.cpp.obj
-
-Prueba.i: Prueba.cpp.i
-.PHONY : Prueba.i
-
-# target to preprocess a source file
-Prueba.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Prueba.cpp.i
-.PHONY : Prueba.cpp.i
-
-Prueba.s: Prueba.cpp.s
-.PHONY : Prueba.s
-
-# target to generate assembly for a file
-Prueba.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Prueba.cpp.s
-.PHONY : Prueba.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -212,9 +188,6 @@ help:
 	@echo ... Collector.obj
 	@echo ... Collector.i
 	@echo ... Collector.s
-	@echo ... Prueba.obj
-	@echo ... Prueba.i
-	@echo ... Prueba.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

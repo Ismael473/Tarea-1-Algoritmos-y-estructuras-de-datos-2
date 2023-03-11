@@ -138,9 +138,6 @@ CMakeFiles/tarea1.dir/Collector.cpp.obj: D:/documentos/C++\ projects/Tarea-1-Alg
   D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc
 
-CMakeFiles/tarea1.dir/Prueba.cpp.obj: D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/Prueba.cpp \
-  D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/Prueba.h
-
 CMakeFiles/tarea1.dir/main.cpp.obj: D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/main.cpp \
   D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
   D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -277,8 +274,7 @@ CMakeFiles/tarea1.dir/main.cpp.obj: D:/documentos/C++\ projects/Tarea-1-Algoritm
   D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ostream.tcc \
   D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
-  D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/Prueba.cpp \
-  D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/Prueba.h
+  D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/Collector.cpp
 
 
 D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h:
@@ -554,7 +550,3 @@ D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include
 D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream:
 
 D:/JetBrains/CLion\ 2022.3.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc:
-
-D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/Prueba.cpp:
-
-D:/documentos/C++\ projects/Tarea-1-Algoritmos-y-estructuras-de-datos-2/tarea1/Prueba.h:
