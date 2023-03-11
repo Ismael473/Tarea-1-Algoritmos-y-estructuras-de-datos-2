@@ -20,7 +20,27 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6db78add-0562-428e-be5b-e6e7c2d87770" name="Changes" comment="inicio del garbage collector" />
+    <list default="true" id="6db78add-0562-428e-be5b-e6e7c2d87770" name="Changes" comment="inicio del garbage collector">
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-2d876d57e5c580139d3c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-10T20-36-19-0820.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/.cmake/api/v1/reply/target-tarea1-Debug-5c4e665f31577d4dba39.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj.d" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/main.cpp.obj.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/CMakeFiles/tarea1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/cmake-build-debug/tarea1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +106,7 @@
       <workItem from="1678224269011" duration="3807000" />
       <workItem from="1678326959590" duration="705000" />
       <workItem from="1678411800724" duration="2538000" />
-      <workItem from="1678456294339" duration="12268000" />
+      <workItem from="1678456294339" duration="14388000" />
     </task>
     <task id="LOCAL-00001" summary="Solución a problemas presentes en la parte de node y list">
       <created>1678471206763</created>
@@ -116,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678497899701</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="inicio del garbage collector">
+      <created>1678497943996</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678497943996</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
