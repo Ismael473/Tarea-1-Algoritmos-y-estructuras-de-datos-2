@@ -128,6 +128,30 @@ tarea1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/build
 .PHONY : tarea1/fast
 
+Collector.obj: Collector.cpp.obj
+.PHONY : Collector.obj
+
+# target to build an object file
+Collector.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Collector.cpp.obj
+.PHONY : Collector.cpp.obj
+
+Collector.i: Collector.cpp.i
+.PHONY : Collector.i
+
+# target to preprocess a source file
+Collector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Collector.cpp.i
+.PHONY : Collector.cpp.i
+
+Collector.s: Collector.cpp.s
+.PHONY : Collector.s
+
+# target to generate assembly for a file
+Collector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tarea1.dir\build.make CMakeFiles/tarea1.dir/Collector.cpp.s
+.PHONY : Collector.cpp.s
+
 Prueba.obj: Prueba.cpp.obj
 .PHONY : Prueba.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... tarea1
+	@echo ... Collector.obj
+	@echo ... Collector.i
+	@echo ... Collector.s
 	@echo ... Prueba.obj
 	@echo ... Prueba.i
 	@echo ... Prueba.s

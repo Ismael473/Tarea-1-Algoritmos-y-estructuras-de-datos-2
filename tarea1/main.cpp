@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Collector.cpp"
+//#include "Collector.cpp"
 #include "Prueba.cpp"
 
 using namespace std;
@@ -26,15 +26,13 @@ void eliminarNodo(nodoPtr& cabeza){
 
 void crearNuevoNodo(nodoPtr& cabeza, int info)
 {
-    if(cabeza->info == NULL){
-        cabeza->info = info;
-    }else {
+
         nodoPtr ptrTemp; //puntero de dirección de nodo
         ptrTemp = new Nodo; //crea el nuevo nodo
         ptrTemp->info = info; // dato ingresado
         ptrTemp->sig = cabeza; //
         cabeza = ptrTemp;
-    }
+
 }
 
 int main() {
@@ -45,7 +43,7 @@ int main() {
     cabeza->sig = NULL;
     int nuevoDato;
     string operacion;
-
+    eliminarNodo(cabeza);
     while (true) {
 
         cout<< "ingrese que desea hacer + para agregar, - para eliminar";
