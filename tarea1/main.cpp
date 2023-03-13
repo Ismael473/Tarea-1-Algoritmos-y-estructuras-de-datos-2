@@ -12,7 +12,7 @@ private:
     Nodo() = default;
 
 public:
-    Nodo(int info);
+    Nodo(int info);//Es el metodo nodo que agrega el valor al nodo
     /**
      *
      * @param size es el tamaño del nodo
@@ -27,7 +27,7 @@ public:
 
 class Collector{
 private:
-    void* cabeza;
+    void* cabeza;//dirección del primer nodo
 
 public:
     /**
